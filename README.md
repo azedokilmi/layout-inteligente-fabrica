@@ -42,12 +42,16 @@ Este projeto em Python realiza a otimização do posicionamento de máquinas den
    pip install numpy matplotlib scipy
    ```
 
-3. **Execute o script:**
+3. **Execute o programa**:
 
+   No terminal (ou prompt de comando), navegue até a área de trabalho onde o arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-inteligente.py)) deve estar localizado e execute o comando abaixo:
+   
+   Após a execução do script, os arquivos de saída serão gerados na mesma pasta onde o programa foi executado.
+   
    ```bash
-   python otimizador_layout.py
+   python layout-inteligente.py
    ```
-
+   
    Após a execução, serão exibidos os gráficos com os tempos comparativos.
 
 ---
