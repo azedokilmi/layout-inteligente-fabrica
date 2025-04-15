@@ -52,8 +52,11 @@ Este projeto em Python realiza a otimização do posicionamento de máquinas den
    python layout-inteligente.py
    ```
    
-   Após a execução, serão exibidos os gráficos com os tempos comparativos.
+   Após a execução, serão exibidos e salvos os gráficos com os tempos comparativos.
+   Layout inicial (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-inicial.png))
+   Layout otimizado (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-otimizado.png))
 
+   ![Prévia do Programa em Execução](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/preview-layouts.png)
 ---
 
 ## 🧠 Sobre o Algoritmo Simulated Annealing
