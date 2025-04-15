@@ -53,7 +53,9 @@ Este projeto em Python realiza a otimização do posicionamento de máquinas den
    ```
    
    Após a execução, serão exibidos e salvos os gráficos com os tempos comparativos.
+   
    Layout inicial (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-inicial.png))
+   
    Layout otimizado (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-otimizado.png))
 
    ![Prévia do Programa em Execução](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/preview-layouts.png)
