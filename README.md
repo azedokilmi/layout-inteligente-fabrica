@@ -34,7 +34,8 @@ Este projeto em Python realiza a otimização do posicionamento de máquinas den
 
 ## 🚀 Passo a Passo para Execução
 
-1. **Instale o Python (3.8+)**
+1. **Tenha o Python instalado**  
+   Recomendado: Python 3.8+
 
 2. **Instale as bibliotecas necessárias:**
 
