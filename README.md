@@ -9,41 +9,54 @@ Este projeto em Python realiza a otimização do posicionamento de máquinas den
 1. 📀 **Definição Inicial do Layout**
 
    - O usuário define:
+     
      - Dimensões da fábrica (largura x comprimento)
+       
      - Posições e tamanhos das máquinas
+       
      - Tempo de processamento por máquina
+       
      - Tempo de deslocamento por metro
+       
    - O layout inicial é visualizado com setas indicando os fluxos e distâncias.
 
 2. 🧊 **Algoritmo de Otimização**
 
    - É utilizado o algoritmo **Simulated Annealing**, que busca o melhor posicionamento possível das máquinas, respeitando:
+     
      - Limites físicos da fábrica
+       
      - Restrições de sobreposição entre máquinas
+       
      - Distância mínima entre máquinas
+       
    - A função objetivo considera o tempo total do processo: soma do tempo de processamento + tempo de deslocamento entre máquinas.
 
 3. 📊 **Visualização Gráfica**
 
    - Dois gráficos são gerados:
+     
      - Layout inicial, com tempo total antes da otimização
+       
      - Layout otimizado, com novo tempo total
+       
    - Os tempos são exibidos no canto superior esquerdo do gráfico.
 
 ---
 
 ## 🚀 Passo a Passo para Execução
 
-1. **Tenha o Python instalado**  
+1. **Tenha o Python instalado**
+   
    Recomendado: Python 3.8+
 
-2. **Instale as bibliotecas necessárias:**
+3. **Instale as bibliotecas necessárias:**
 
    ```bash
    pip install numpy matplotlib scipy
    ```
 
-3. **Execute o programa**:
+4. **Execute o programa**:
 
    No terminal (ou prompt de comando), navegue até a área de trabalho onde o arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/layout-inteligente-fabrica/blob/main/layout-inteligente.py)) deve estar localizado e execute o comando abaixo:
    
@@ -69,8 +82,11 @@ O **Simulated Annealing** (ou "Recozimento Simulado") é um algoritmo inspirado 
 Etapas principais:
 
 - Começa com uma solução aleatória.
+  
 - Realiza pequenas alterações nela.
+  
 - Se a nova solução for melhor, é aceita.
+  
 - Se for pior, pode ser aceita com uma certa probabilidade, que diminui com o tempo (temperatura vai “esfriando”).
 
 ---
@@ -78,7 +94,9 @@ Etapas principais:
 ## 📂 O que é Gerado
 
 - Gráfico do layout inicial com o tempo total antes da otimização.
+  
 - Gráfico do layout otimizado com o novo tempo total.
+  
 - Impressão no terminal dos tempos e do progresso da otimização.
 
 ---
@@ -86,8 +104,11 @@ Etapas principais:
 ## 💡 Ideias Futuras
 
 - Exportar os resultados em PDF.
+  
 - Interface gráfica para entrada de dados.
+  
 - Inclusão de restrições específicas (setores obrigatórios, agrupamentos, etc.).
+  
 - Otimização considerando rotas de empilhadeiras e áreas de segurança.
 
 ---
